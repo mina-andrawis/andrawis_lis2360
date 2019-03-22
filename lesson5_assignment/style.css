@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document created by Mina Andrawis, Spring 2019*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #FFFFFF;
+	background-color: #004791;
+	padding: 0 40px;
+    }
+    
+    
+    /* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #DC900F;
+	font-style:italic;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #DC900F;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #DC900F;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFAA19;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #FFAA19 1px;
+	padding: 4px;
+	letter-spacing:.5em;
+}
+td {
+	padding: 6px;
+	border: solid #fff 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #999933 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FFAA19 1px;
+}
+
+img {
+	border: solid #FFAA19 1px;
+
+}
+
+iframe {
+	border: solid #FFAA19 1px;
+	padding: 8px;
+	margin: 8px;
+}
