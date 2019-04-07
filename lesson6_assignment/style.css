@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document created by Mina Andrawis, Spring 2019*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #FFFFFF;
+	background-color: #004791;
+	padding: 0;
+	margin: 0;
+    }
+    
+    
+    /* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #fff;
+	line-height:1.5em;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #DC900F;
+	font-style:italic;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #DC900F;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #DC900F;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFAA19;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	
+	padding: 4px;
+	letter-spacing:.5em;
+}
+td {
+	padding: 6px;
+	border: solid #fff 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #999933 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FFAA19 1px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+iframe {s
+	padding: 8px;
+	margin: 8px;
+}
+
+
+
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+
+	
+	background-color: #004791;
+	overflow: hidden;
+}
+#header{
+	margin: 0 auto;
+	padding-bottom:10px;
+}
+
+#content{
+	margin: 0 auto;
+	width: 600px;
+	float: left;
+}
+#sidebar{
+	width:300px;
+	float:left;
+}
+#sidebar p{
+	padding: 10px;
+	background:#198AFF;
+	border:1px solid #DC900F;
+	border-radius: 12px;
+	margin-top:60px;
+
+}
+
+#footer{
+	margin: 0 auto;
+	padding-top: 20px;
+	float:left;
+	clear:both;
+}
+
+
