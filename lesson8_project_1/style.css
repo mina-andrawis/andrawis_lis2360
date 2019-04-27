@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* --------------------------- HTML TAG STYLES ----------------------------- */
+
+body {
+  margin: 0px; /* always zero out defaul browser margins and padding */
+  padding: 0px;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+  font-size: 25px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h2{
+    font-size:70px;
+}
+ol {
+    font-size:25px;
+}
+
+h1{
+    font-size:40px;
+}
+table {
+	
+	padding: 4px;
+	
+}
+td {
+	padding: 6px;
+	border: solid #fff 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #999933 1px;
+}
+a:link {
+	color: #6297F9;
+}
+a:visited {
+	color: #6297F9;
+}
+a:hover {
+	color: #4578DF;
+	text-decoration: none;
+}
+
+
+#splash{
+    background: url(ai_cover_new.jpg) no-repeat center top fixed;
+   	background-size: cover;  
+   	padding-bottom:200px;
+}
+
+#overview{
+    background-color:#034C8C;
+    padding-bottom:50px;
+    padding-top:10px;
+}
+
+#media{
+    background: url(ai_human.jpg) no-repeat center top fixed;
+   	background-size: cover;  
+    padding-bottom:50px;
+    padding-top:10px;
+}
+
+#author{
+    background-color:#05F2F2;
+    padding-bottom:50px;
+    padding-top:10px;
+}
+
+#footer{
+    background-color:#fff;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}
+#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 100px 20px 100px; 
+}
+/* change button color when mouse hovers over */
+#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}
+	
+	/* ---------------- CONTAINER STYLES ----------------- */
+/* Containers are used to keep the page content within bounds centered in the browser window. */
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ---------------- TITLE PAGE STYLES ------------------- */
+
+#title-page{
+  width: 100%;
+  padding-top: 200px; /* provides a lot of space above title to view the background image */
+  color: #fff;
+  text-align: right;
+}
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		/* centers the color palette table */
+}
+#credits p {
+  font-size: 20px;
+  margin: 10px 0;
+  color: black;
+}
